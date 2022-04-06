@@ -25,10 +25,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-remote_theme: pages-themes/modernist@v0.2.0
+theme: Modernist
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-#- jekyll-feed
+- jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
